@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/react_scandiweb/static/css/main.964fdded.css",
-    "main.js": "/react_scandiweb/static/js/main.d6a6973f.js",
+    "main.css": "/react_scandiweb/static/css/main.b0dfaddb.css",
+    "main.js": "/react_scandiweb/static/js/main.0d698427.js",
+    "static/media/logo.svg": "/react_scandiweb/static/media/logo.aecaba6e7247d079a9c95416c24b8d28.svg",
+    "static/media/cart.svg": "/react_scandiweb/static/media/cart.412e8a494544585d952c18953e8714cd.svg",
     "index.html": "/react_scandiweb/index.html",
-    "main.964fdded.css.map": "/react_scandiweb/static/css/main.964fdded.css.map",
-    "main.d6a6973f.js.map": "/react_scandiweb/static/js/main.d6a6973f.js.map"
+    "static/media/vector-down.svg": "/react_scandiweb/static/media/vector-down.766d7b11f183f77a1e40c47ea18dd7ee.svg",
+    "main.b0dfaddb.css.map": "/react_scandiweb/static/css/main.b0dfaddb.css.map",
+    "main.0d698427.js.map": "/react_scandiweb/static/js/main.0d698427.js.map"
   },
   "entrypoints": [
-    "static/css/main.964fdded.css",
-    "static/js/main.d6a6973f.js"
+    "static/css/main.b0dfaddb.css",
+    "static/js/main.0d698427.js"
   ]
 }
