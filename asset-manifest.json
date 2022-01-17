@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/react_scandiweb/static/css/main.b0dfaddb.css",
-    "main.js": "/react_scandiweb/static/js/main.0d698427.js",
+    "main.css": "/react_scandiweb/static/css/main.624c0616.css",
+    "main.js": "/react_scandiweb/static/js/main.5bc2609b.js",
+    "static/media/product-img.png": "/react_scandiweb/static/media/product-img.1461e43df99eb0a2f12a.png",
     "static/media/logo.svg": "/react_scandiweb/static/media/logo.aecaba6e7247d079a9c95416c24b8d28.svg",
     "static/media/cart.svg": "/react_scandiweb/static/media/cart.412e8a494544585d952c18953e8714cd.svg",
     "index.html": "/react_scandiweb/index.html",
     "static/media/vector-down.svg": "/react_scandiweb/static/media/vector-down.766d7b11f183f77a1e40c47ea18dd7ee.svg",
-    "main.b0dfaddb.css.map": "/react_scandiweb/static/css/main.b0dfaddb.css.map",
-    "main.0d698427.js.map": "/react_scandiweb/static/js/main.0d698427.js.map"
+    "main.624c0616.css.map": "/react_scandiweb/static/css/main.624c0616.css.map",
+    "main.5bc2609b.js.map": "/react_scandiweb/static/js/main.5bc2609b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0dfaddb.css",
-    "static/js/main.0d698427.js"
+    "static/css/main.624c0616.css",
+    "static/js/main.5bc2609b.js"
   ]
 }
