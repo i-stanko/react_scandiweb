@@ -1,0 +1,50 @@
+.section {
+  padding: 80px 100px;
+}
+
+.title {
+  font-size: 42px;
+  color: #1d1f22;
+  font-weight: normal;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 80px;
+
+}
+
+.card {
+  min-width: 386px;
+  min-height: 444px;
+  padding: 15px;
+  overflow: hidden;
+  margin-bottom: 100px;
+  cursor: pointer;
+  border: 1px solid #eee;
+}
+
+.card:hover {
+  box-shadow: 0 4px 35px 0 #a8acb030;
+}
+
+.productImg {
+  max-width: 354px;
+  max-height: 330px;
+  margin-bottom: 24px;
+}
+
+.productTitle {
+  font-weight: normal;
+  color: #1d1f22;
+  font-size: 18px;
+}
+
+.productPrice {
+  font-size: 18px;
+  font-weight: 500;
+
+}

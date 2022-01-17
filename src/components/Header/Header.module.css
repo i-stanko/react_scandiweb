@@ -1,10 +1,11 @@
 .header {
   min-height: 80px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   overflow: hidden;
-  background-color: aliceblue;
+  padding: 0 100px;
+  /*background-color: aliceblue;*/
 }
 
 .nav {
@@ -21,7 +22,7 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #1d1f22;
-  padding: 0 15px;
+  /*padding: 0 15px;*/
 }
 
 .navLink:hover {

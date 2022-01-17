@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import style from './Header.module.css';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import LogoIcon from '../../svg/logo.svg';
 import VectorIcon from '../../svg/vector-down.svg';
 import CartIcon from '../../svg/cart.svg';
@@ -12,18 +12,24 @@ class Header extends Component {
       <header className={style.header}>
         <ul className={style.nav}>
           <li className={style.navItem}>
-            <Link to="/women" className={style.navLink}>Women</Link>
+            <Link to="/react_scandiweb/women" className={style.navLink}>
+              Women
+            </Link>
           </li>
           <li className={style.navItem}>
-            <Link to="/men" className={style.navLink}>Men</Link>
+            <Link to="/react_scandiweb/men" className={style.navLink}>
+              Men
+            </Link>
           </li>
           <li className={style.navItem}>
-            <Link to="/kids" className={style.navLink}>Kids</Link>
+            <Link to="/react_scandiweb/kids" className={style.navLink}>
+              Kids
+            </Link>
           </li>
         </ul>
 
         <div className={style.logo}>
-          <Link to="/">
+          <Link to="/react_scandiweb/">
             <img src={LogoIcon} alt="logo" width="32" />
           </Link>
         </div>
@@ -38,8 +44,8 @@ class Header extends Component {
             </div>
           </div>
           <div className={style.cart}>
-            <span className={style.cartCount}>2</span>
-            <Link to="/cart">
+            <Link to="/react_scandiweb/cart">
+              <span className={style.cartCount}>2</span>
               <img src={CartIcon} alt="cart" width="20" />
             </Link>
           </div>
