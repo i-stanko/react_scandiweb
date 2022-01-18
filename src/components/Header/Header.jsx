@@ -10,23 +10,17 @@ class Header extends Component {
   render() {
     return(
       <header className={style.header}>
-        <ul className={style.nav}>
-          <li className={style.navItem}>
-            <Link to="/react_scandiweb/women" className={style.navLink}>
-              Women
-            </Link>
-          </li>
-          <li className={style.navItem}>
-            <Link to="/react_scandiweb/men" className={style.navLink}>
-              Men
-            </Link>
-          </li>
-          <li className={style.navItem}>
-            <Link to="/react_scandiweb/kids" className={style.navLink}>
-              Kids
-            </Link>
-          </li>
-        </ul>
+        <nav className={style.nav}>
+          <div className={style.navItem}>
+            <NavLink to="/react_scandiweb/women" className={style.navLink}>Women</NavLink>
+          </div>
+          <div className={style.navItem}>
+            <NavLink to="/react_scandiweb/men" className={style.navLink}>Men</NavLink>
+          </div>
+          <div className={style.navItem}>
+            <NavLink to="/react_scandiweb/kids" className={style.navLink}>Kids</NavLink>
+          </div>
+        </nav>
 
         <div className={style.logo}>
           <Link to="/react_scandiweb/">

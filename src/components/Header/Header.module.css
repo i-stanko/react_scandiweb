@@ -5,7 +5,6 @@
   align-items: center;
   overflow: hidden;
   padding: 0 100px;
-  /*background-color: aliceblue;*/
 }
 
 .nav {
@@ -15,18 +14,25 @@
 }
 
 .navItem {
-  list-style: none;
+  display: flex;
+  text-align: center;
 }
 
 .navLink {
   text-decoration: none;
   text-transform: uppercase;
   color: #1d1f22;
-  /*padding: 0 15px;*/
+  line-height: 80px;
 }
 
 .navLink:hover {
+  font-weight: bold;
   color: #5ece7b;
+  transition: all 0.2s ease-out;
+}
+
+.active {
+  color: gold;
 }
 
 .menu {

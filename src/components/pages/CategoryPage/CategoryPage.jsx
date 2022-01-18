@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import style from './Section.module.css';
-import ProductImg from '../../img/product-img.png';
+import style from './CategoryPage.module.css';
+import ProductImg from '../../../img/product-img.png';
 import getSymbolFromCurrency from 'currency-symbol-map'
 
-class Section extends Component {
+class CategoryPage extends Component {
   render() {
     return(
-      <div className={style.section}>
-        <h1 className={style.title}>Category name</h1>
-
+      <>
         <div className={style.product}>
           <div className={style.card}>
             <img src={ProductImg} className={style.productImg} />
@@ -53,9 +51,9 @@ class Section extends Component {
             </h3>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }
 
-export default Section;
+export default CategoryPage;

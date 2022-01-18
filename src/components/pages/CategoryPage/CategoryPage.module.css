@@ -1,7 +1,3 @@
-.section {
-  padding: 80px 100px;
-}
-
 .title {
   font-size: 42px;
   color: #1d1f22;
@@ -14,7 +10,6 @@
   flex-wrap: wrap;
   width: 100%;
   padding-top: 80px;
-
 }
 
 .card {
@@ -24,7 +19,6 @@
   overflow: hidden;
   margin-bottom: 100px;
   cursor: pointer;
-  border: 1px solid #eee;
 }
 
 .card:hover {
@@ -46,5 +40,4 @@
 .productPrice {
   font-size: 18px;
   font-weight: 500;
-
 }
