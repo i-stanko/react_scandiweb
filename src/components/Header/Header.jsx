@@ -12,18 +12,24 @@ class Header extends Component {
       <header className={style.header}>
         <nav className={style.nav}>
           <div className={style.navItem}>
-            <NavLink to="/react_scandiweb/women" className={style.navLink}>Women</NavLink>
+            <NavLink to="/react_scandiweb/women" className={style.navLink}>
+              Women
+            </NavLink>
           </div>
           <div className={style.navItem}>
-            <NavLink to="/react_scandiweb/men" className={style.navLink}>Men</NavLink>
+            <NavLink to="/react_scandiweb/men" className={style.navLink}>
+              Men
+            </NavLink>
           </div>
           <div className={style.navItem}>
-            <NavLink to="/react_scandiweb/kids" className={style.navLink}>Kids</NavLink>
+            <NavLink to="/react_scandiweb/kids" className={style.navLink}>
+              Kids
+            </NavLink>
           </div>
         </nav>
 
         <div className={style.logo}>
-          <Link to="/react_scandiweb/">
+          <Link to="/react_scandiweb">
             <img src={LogoIcon} alt="logo" width="32" />
           </Link>
         </div>

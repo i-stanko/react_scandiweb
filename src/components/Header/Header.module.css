@@ -32,7 +32,8 @@
 }
 
 .active {
-  color: gold;
+  color: crimson;
+  border: 1px solid crimson;
 }
 
 .menu {
